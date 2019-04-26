@@ -45,10 +45,13 @@ a{
   opacity: 0.8;
 
 }
-#title{
+.title{
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 150px;
+  right:50px;
+}
+#title{
+  margin-bottom: 20px;
   color:black;
   font-size: 3em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -56,9 +59,7 @@ a{
 
 #description{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  position: absolute;
-  top: 43%;
-  left: 53%;
+  
   font-size: 1.5em;
   color:slategrey;
 }
