@@ -80,6 +80,19 @@ a{
   margin-top:30px;
   text-align: center;
 }
+#more{
+  
+  margin-left: 550px;
+  margin-bottom: 20px;
+  max-width: 150px;
+  display:block;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+}
 
 
 
