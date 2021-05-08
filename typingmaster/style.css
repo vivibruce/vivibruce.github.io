@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(105, 101, 101);
+}
+.diffculty-choice{
+    position: absolute;
+    top:80px;
+}
+.diffculty-choice label{
+    color: #fff;
+}
+
+#difficulty{
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    width: 500px;
+    height: 300px;
+    min-width: 500px;
+    top:150px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+  
+}
+
+.timer{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+.score{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+.textbox{
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #000;
+}
+
+.other{
+    border: 1px solid #f00;
+    background: #ff0;
+    padding:5px;
+    position:absolute;
+    bottom:10px;
+    cursor: pointer;
+}
+.restart{   
+    visibility: hidden;
+}
+

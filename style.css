@@ -97,6 +97,25 @@ a:hover{
   padding: 5px;
 }
 
+.projects{
+  margin-left: 50px;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.projects a{
+  color: #000;
+  cursor: pointer;
+}
+.projects li{
+  padding-bottom: 20px;
+}
+
+.projects a:hover{
+  text-decoration: underline;
+  color: blue;
+}
 
 
 
