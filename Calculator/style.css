@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.input-group > *,
+.operator,
+.calculate{
+  height: 32px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.calculate{
+  width: 90px;
+}
+
+.operator,
+.calculate{
+  margin: 0 20px;
+  padding: 0 10px;
+}
+
+.input-group .button-minus{
+  position: relative;
+  left: 5px;
+}
+.input-group .button-plus{
+  position: relative;
+  left: -5px;
+}
+
+.input-group .value1,
+.input-group .value2,
+.operator{
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

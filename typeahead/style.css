@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body{
+
+}
+
+li{
+  background: #fff;
+  list-style: none;
+}
+
+.hl{
+  color: #ffc600;
+}

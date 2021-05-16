@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="box">
+    <div class="input-group">
+      <input type="button" value="-" class="button-minus" onclick="decreaseFirstValue()">
+      <input type="number" step="1" max="" value="1" class="value1">
+      <input type="button" value="+" class="button-plus" onclick="increaseFirstValue()">
+    </div>
+    <select id="operator" class="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <div class="input-group">
+      <input type="button" value="-" class="button-minus" onclick="decreaseSecondValue()">
+      <input type="number" step="1" max="" value="1"  class="value2">
+      <input type="button" value="+" class="button-plus" onclick="increaseSecondValue()">
+    </div>
+    <button class="calculate">result ></button>
+    <span class="result"></span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
