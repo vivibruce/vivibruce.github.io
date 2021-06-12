@@ -28,6 +28,10 @@
   max-height: 150px;
 }
 
+.container ul li.show .fa-angle-down{
+  transform: rotate(180deg);
+}
+
 .container ul li .content{
   padding-top: 10px;
 }
