@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  max-width: 700px;
+  margin: 100px auto 0;
+}
+ul{
+  list-style: none;
+}
+
+.task-list .task {
+  border: 3px solid #666;
+  background-color: #ddd;
+  border-radius: .5em;
+  max-width: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: move;
+}
+
+.task-list .task.over {
+  border: 3px dotted #666;
+}

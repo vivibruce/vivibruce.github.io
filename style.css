@@ -81,8 +81,8 @@ a:hover{
   margin-top:30px;
   text-align: center;
 }
-#more{
-  
+
+#more {  
   margin-left: 550px;
   margin-bottom: 20px;
   max-width: 150px;
@@ -96,24 +96,48 @@ a:hover{
 }
 
 .projects{
-  margin-left: 50px;
-  padding-left: 30px;
-  font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      font-family: 'Courier New', Courier, monospace;
+      max-width: 1150px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.project-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 0;
 }
 
 .projects a{
   color: #000;
-  cursor: pointer;
-}
-.projects li{
-  padding-bottom: 20px;
 }
 
-.projects a:hover{
-  text-decoration: underline;
+
+.projects li {
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 20px 10px;
+  text-align: center;
+  box-shadow: 0 4px 7px 0px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+
+.projects li:hover a,
+.projects li:hover{
   color: blue;
 }
 
-
-
+@media screen and (max-width: 768px) {
+  .projects li{
+    min-width: 300px;
+  }
+}
